@@ -132,9 +132,9 @@ const l11 = 999999923234242;
 const l31 = l11.toExponential();
 // const l51 = Number(l31);
 const l51 = parseFloat(l31);
-const l61 = l51.toString(2); //11100011010111111010100000001100110010010111000010
+const l61 = l51.toString(2);
 
 console.log(l31, l51); //9.99999923234242e+14 999999923234242
 console.log(l11 === l51); //true
 
-console.log(l61);
+console.log(l61); //11100011010111111010100000001100110010010111000010
